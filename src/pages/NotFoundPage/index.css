@@ -1,0 +1,47 @@
+/*======================
+    404 page
+=======================*/
+
+.page_404 {
+    padding: 40px 0;
+    background: #fff;
+    font-family: "Arvo", serif;
+  }
+  
+  .page_404 img {
+    width: 100%;
+  }
+  
+  .four_zero_four_bg {
+    display: flex;
+    height: 400px;
+    background-position: center;
+    justify-content: center;
+  }
+  
+  .four_zero_four_bg h1 {
+    font-size: 80px;
+  }
+  
+  .four_zero_four_bg h3 {
+    font-size: 80px;
+  }
+  
+  .link_404 {
+    color: #fff !important;
+    padding: 10px 40px;
+    background: #3D5CEF;
+    margin: 10px 0;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+    width: fit-content;
+  }
+  .contant_box_404 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -70px;
+  }
+  

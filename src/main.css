@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/** reset.css */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+  font-family: 'Hiragino Kaku Gothic Pro';
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.scrollable-div::-webkit-scrollbar {
+  width: 12px;
+}
+
+.scrollable-div::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.scrollable-div::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.scrollable-div::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.description-custom video,
+.description-custom img {
+  max-height: 100px !important;
+}
+
+.ant-pro-table-list-toolbar-title {
+  color: #000000 !important;
+  font-weight: bold !important;
+  font-size: 20px !important;
+}
+
+.ant-table-thead tr th {
+  color: #2443dd !important;
+  font-weight: bold !important;
+  font-size: 11px !important;
+  background-color: #eff2ff !important;
+}
+
+.ant-table-body td {
+  color: #333333;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.custom-star .ant-rate-star {
+  margin-inline-end: 3px !important;
+}
+
+.main-content .ant-pro-page-container-children-container {
+  margin: 0px auto;
+  padding: 0px;
+}
+
+.home-page {
+  font-family: 'Hiragino Kaku Gothic Pro';
+}
+
+.scroll-item {
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #FFCC21 #777777; /* For Firefox */
+}
+
+.scroll-item::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scroll-item::-webkit-scrollbar-track {
+  background: #777777;
+}
+
+.scroll-item::-webkit-scrollbar-thumb {
+  background: #FFCC21;
+  border-radius: 15px;
+}
+
+.ant-dropdown-menu {
+  border-radius: 0 !important;
+  padding: 0 !important;
+
+}
+
+.ant-dropdown-menu-title-content{
+  color: white;
+}
+
+.custom-menu-item {
+  border-radius: 0px !important;
+}
+
+.custom-menu-item:after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(#333333, rgb(255, 255, 255));
+  /* transition: width 0.3s; */
+  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Shadow with transparency */
+}
+
+.ant-dropdown-menu-item:hover {
+  background-color: #555 !important;
+}
+
+.isActive .ant-dropdown-menu-title-content{
+  color: #FF963C;
+}
